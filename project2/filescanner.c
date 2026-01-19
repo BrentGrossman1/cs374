@@ -1,5 +1,5 @@
 // Brent Grossman
-// cs374 - Priject 2: Scan Directories
+// cs374 - Project 2: Scan Directories
 // 01/18/2025
 
 #include <stdio.h>
@@ -110,4 +110,5 @@ int main(int argc, char *argv[]) {
     }
 
     return 0;
+
 }
