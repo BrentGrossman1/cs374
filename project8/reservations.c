@@ -23,7 +23,6 @@ int reserve_seat(int n)
     // This function should also increment seat_taken_count if the seat
     // wasn't already taken.
     
-    // TODO
     // check if seat n is already taken
     pthread_mutex_lock(&mutex);
     if (seat_taken[n]) {
@@ -49,7 +48,6 @@ int free_seat(int n)
     // This function should also decrement seat_taken_count if the seat
     // wasn't already free.
 
-    // TODO
     // check if seat n is already free
     pthread_mutex_lock(&mutex);
     if (!seat_taken[n]) {
